@@ -24,9 +24,9 @@
     Fields are
     Designator, Quantity, Manufacturer Part Number, Manufacturer, Package/Footprint, Description, Procurement Type, Customer Note
 
-    -------------------------- MAPPING -------------------------
+    - - - - - - -  - - - - MAPPING - - - - - - - - - - - - - - 
     CSV FIle Field = KiCad Schematic Editor (Symbol Properties)
-    ------------------------------------------------------------
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     Designator = Reference
     Manufacturer Part Number = MFR
@@ -36,7 +36,7 @@
     Procurement Type = ""
     Customer Note = "LCSC Part #: " + LCSC
     
-    -----------------------------------------------------------
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     The command line is
         xsltproc -o "%O.csv" "full_path/bom2grouped_csv_nextpcb.xsl" "%I"
